@@ -1,0 +1,410 @@
+@font-face{
+    font-family: "CirceBold";
+    src: url(../Fonts/CirceBold.woff2),
+    url(../Fonts/CirceBold.woff);
+
+}
+
+@font-face{
+    font-family: "CirceRegular";
+    src: url(/Fonts/CirceRegular.woff2),
+    url(../Fonts/CirceRegular.woff);
+}
+
+@font-face{
+    font-family: "Gilam-Bold";
+    src: url(/Fonts/Gilam-Bold.woff2),
+    url(../Fonts/Gilam-Bold.woff);
+}
+
+@font-face{
+    font-family: "Gilam-Book";
+    src: url(/Fonts/Gilam-Book.woff2),
+    url(../Fonts/Gilam-Book.woff);
+}
+
+@font-face{
+    font-family: "Gilam-Regular";
+    src: url(/Fonts/Gilam-Regular.woff2),
+    url(../Fonts/Gilam-Regular.woff);
+}
+
+@font-face{
+    font-family: "Gilam-SemiBold";
+    src: url(/Fonts/Gilam-SemiBold.woff2),
+    url(../Fonts/Gilam-SemiBold.woff);
+}
+
+
+
+
+
+
+
+
+
+
+.wrap{
+    background-color: #1a1919;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+   
+
+
+.container{
+    max-width: 1451px;
+    margin-left: auto;
+    margin-right: auto;
+}    
+
+
+a{
+    text-decoration: none;
+}
+
+.callback {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #E4B564;
+    display: inline-block;
+    padding: 10px 25px 10px 49px; 
+    border: 1px solid #E4B564;
+    position: relative; 
+    font-family: "CirceRegular";
+}
+
+.img{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left: 26px;
+}
+
+h2{
+    font-family: 'Gilam-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding-bottom: 41px;
+}
+
+.text{
+    font-family: 'Gilam-SemiBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding-top: 37px;
+    margin-bottom: 120px;    
+}
+
+
+.phone{
+    font-family: "CirceBold";
+    color:white;
+    margin-left: auto;
+    margin-right: 39px;
+}
+ 
+.number{
+    font-family: "CirceBold";
+    color: #E4B564;
+    
+}
+
+
+.block1{
+    background: #634F2C;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+   
+}
+
+.block2{
+    background: #B4A385;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.block3{
+    background: #E4B564;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+   
+}
+
+.block4{
+    background: #635A4A;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.block5{
+    background: #B08C4D;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.firstblockchain{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 468px 468px ;
+    margin-top: 41px; 
+    margin-bottom: 161px;
+    justify-content: space-between;
+    /* gap: 27px; */
+
+
+   
+}
+
+.box1{
+    background: #0E0E0E;
+    grid-row-start: 1;
+    grid-row-end: 5;
+
+}
+.box2{
+    background: #242424;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    
+}
+.box3{
+    background: #1F1F1F;
+    grid-row-start: 1;
+    grid-row-end: 4;
+   
+    
+}
+.box4{
+    background: #1F1F1F;
+    grid-row-start: 5;
+    grid-row-end: 11;
+    
+}
+.box5{
+    background: #E4B564;
+    grid-row-start:6;
+    grid-row-end: 10;
+    
+}
+.box6{
+    background: #0E0E0E;
+    grid-row-start: 4;
+    grid-row-end: 8;
+
+}
+.box7{
+    background: #0A0909;
+    grid-row-start: 8;
+    grid-row-end: 11;
+}
+
+.secondblockchain{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: repeat(10, 60px);
+    gap: 25px; 
+    justify-content: space-between; 
+    margin-top: 94px;
+    margin-bottom: 191px;
+    
+
+}
+
+.slogan{
+    
+    padding-top:44px;
+    padding-left:52px;
+    font-family: 'Gilam-Book';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+   
+}
+.numbercar{
+    font-family: 'Gilam-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.adres{
+    font-family: "Gilam-Book";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+
+.allprojects{
+    margin-left: auto;
+    margin-right: auto;
+    background: #0E0E0E;  
+}
+ 
+
+
+.projects{
+    display: flex;
+    padding-top: 161px;
+    justify-content: space-between;
+}
+
+.projects a{
+    font-family: 'CirceRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #E4B564;
+    padding: 10px 40px;
+    border: 1px solid #E4B564;
+}
+
+.customers{
+    margin-top: 61px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 381px 381px; 
+    /* grid-template-areas: "customer1 customer2 customer3"
+                         "customer4 customer5 customer6"; */
+
+}
+
+.customer1{
+    background-color: #634F2C;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.customer2{
+    background-color:rgba(232, 210, 171, 0.76);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+}
+
+.customer3{
+    background-color: #E4B564;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.customer4{
+    background-color: #635A4A;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.customer5{
+    background-color:  #B08C4D;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.customer6{
+    background-color: #634F2C;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+    top: 61px;
+    
+}
+
+.name{
+    position: absolute;
+    top: 119px;
+    
+
+}
+
+.work{
+    font-family: "Gilam-Bold";
+    position: absolute;
+    bottom: 61px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.arm{
+    position: absolute;
+    bottom:25px;
+}
+
+
+
+
+
+
+
+.firstparalax{
+  background: url(../img/header-bg.jpeg) center/cover no-repeat;
+  background-attachment: fixed;
+
+
+ 
+}
+
+.secondparalax{
+    background: url(../img/parallax-bg.jpeg) center/cover no-repeat;
+    background-attachment: fixed;
+
+    
+    
+}
+
+footer{
+    padding-bottom: 238px;
+}
+

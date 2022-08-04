@@ -1,0 +1,231 @@
+.background{
+    background: url(../img/background1.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+   
+}
+
+.logo {
+  width: 53px;
+  height: 47px; 
+  margin-top: 5px; 
+} 
+
+.container{
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.milan{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 29px;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  justify-content: center;
+}
+
+.holidays{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.alllogo{
+  display: flex;
+  align-items: space-around;
+}
+.logotype{
+  display: flex;
+}
+
+.alllogo:hover .logo{
+  content: url(../img/logoorange.png);
+}
+
+.alllogo:hover .milan{
+  color: #F26522; 
+}
+.alllogo:hover .holidays{
+  color: #F26522; 
+}
+
+.adres{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+.contact{
+  height: 61px;
+  padding-top: 46px;
+  margin-bottom: 17px;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+a{
+  text-decoration: none;
+}
+
+.email{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.email:hover{
+  color: #F26522;
+}
+
+.number{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.number:hover{
+  color: #F26522;
+}
+
+.places{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;  
+  row-gap: 37px;
+  text-align: center;
+  margin-bottom: 49px;
+  justify-content: space-between;
+}
+
+.nametours{
+  margin-top: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+  display: inline-block; 
+}
+
+.copyright{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-bottom: 15px;
+}
+
+
+
+.place{
+  border: 5px solid black; 
+  border-image : linear-gradient(to right, black, white) 1;
+}
+
+.information{
+  position: relative;
+
+}
+.info{
+  height: 55px;  
+  width: 300px;
+  background:#F26522; 
+  position: absolute;
+  bottom: 0;
+  margin-left: 5px;
+  margin-bottom: 7px;
+  opacity: 0;
+  -webkit-transition: all .9s;
+  -o-transition: all .9s;
+  transition: all .9s;
+}
+
+.places li a:hover .info{
+  opacity: 1;
+}
+
+.places li a:hover .nametours{
+  color: #F26522;
+
+}
+
+
+.order{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bye{
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  
+}
+
+
+.from{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  color: #FFFFFF;
+  margin-top: 7px;
+  margin-bottom: 8px;
+  
+}
+
+.price{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  
+}
+
+.view{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #FFFFFF;
+  margin-right: 37px;
+  margin-top: 29px;
+}
+
+
+.view::after{
+  content: url(../img/Vector1.png); 
+  margin-left:16px;
+}

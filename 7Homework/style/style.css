@@ -1,0 +1,398 @@
+@font-face{
+    font-family: "Ubuntu-Regular";
+    src: url(../Fonts/Ubuntu-Regular.woff2),
+    url(../Fonts/Ubuntu-Regular.woff);
+
+}
+@font-face{
+    font-family: "Ubuntu-Bold";
+    src: url(../Fonts/Ubuntu-Bold.woff2),
+    url(../Fonts/Ubuntu-Bold.woff);
+
+}
+
+
+
+.background{
+    background: url(../img/Фон\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+svg{
+    width: 23px;
+    height: 23px;
+}
+
+.calendarsvg,
+.envelopesvg{
+    fill: white;
+    margin-right: 27px;
+    
+}
+
+.calendarsvg:hover,
+.envelopesvg:hover,
+.compasssvg:hover{
+    fill:#01813F;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+.compasssvg{
+    fill: white; 
+}
+
+.nav{
+    height: 58px;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.icons{
+    display: flex;
+  
+}
+
+.welcome{
+    margin-left: 27px;
+    font-family: "Ubuntu-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+
+}
+
+.welcome::before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 1px;
+    height: 19px;
+    background: rgba(255, 255, 255, 0.9);
+    margin-right: 27px;  
+}
+
+
+
+
+.journey{
+    font-family: "Ubuntu-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.journey:hover{
+    color:  #01813F;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.log,
+.sign{
+    color:  white;
+}
+
+.sign:hover,
+.log:hover{
+    color:  #01813F;
+    transition: 0.2s;
+}
+
+
+
+.block{
+    position: absolute; 
+    width: 444px;
+    background-color: #FFFFFF;             
+    top: 50%;    
+    left: 50%;                     
+    transform: translate(-50%, -50%);  
+}
+
+
+
+.forma{
+    width: 324px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+    align-items: center;
+}
+.signup{
+    font-family: "Ubuntu-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #434343;
+}
+
+.signup::before{
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: #3CB878;
+    position: absolute;
+    left: 0px;
+    top: 32px;
+}
+
+
+.login{
+    font-family:"Ubuntu-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #3CB878;
+}
+
+.login:hover{
+    color: #01813F;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+
+
+.google,
+.facebook{
+    width: 157px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    border:0;
+    border-radius: 3px; 
+}
+
+.google{
+    background: #DF4A32;
+}
+
+.facebook{
+    background: #305DB8;
+}
+.facebook:hover{
+    background: #022263;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.google:hover{
+    background: #AB1F09;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+.sitefacebook,
+.sitegoogle{
+    font-family: "Ubuntu-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.sitegoogle::before,
+.sitefacebook::before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 1px;
+    height: 28px;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+}
+
+.sitefacebook::before{
+    background: #0A162F;
+    margin-right: 18px;
+    margin-left: 17px;
+
+}
+
+.sitegoogle::before{
+    background: #2B0D09;
+    margin-right: 30px;
+    margin-left: 7px; 
+
+}
+
+.googlesvg{
+    width: 30px;
+    height: 19px;
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+
+.or{
+    font-family: "Ubuntu-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #848484;
+    margin-top: 31px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.or::after,
+.or::before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1px;
+    background: #F2F2F2;
+    border: solid #FFFFFF;
+	border-width: 0 5px;
+    
+}
+
+.or::before{
+    margin-left: -100%;
+}
+
+.or::after{
+    margin-right: -100%;
+}
+
+
+.group{
+    width: 324px;
+    height: 44px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+    font-family: "Ubuntu-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #BEBEBE;
+}
+
+
+.group:focus{
+    outline:none;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+    border-radius: 4px;
+    color: #434343;
+    transition: 0.2s;
+}
+
+.label{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox{
+    display: none;
+
+}
+
+.trycheckbox{
+    display:  inline-block;
+    width: 20px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.0001);
+    border: 1px solid #F2F2F2;
+    position: relative;
+    cursor: pointer;
+}
+
+.trycheckbox::before{
+    content: "";
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block; 
+    width: 16px;
+    height: 16px; 
+    background-image: url(../img/item.svg);
+    opacity: 0;
+    transition: .2s;
+}
+
+.checkbox:checked + .trycheckbox::before{
+    opacity: 1;
+}
+
+
+
+.text{
+    margin-left: 8px;
+    font-family: "Ubuntu-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #434343;  
+}
+
+.terms{
+    color: #3CB878;
+}
+
+.terms:hover{
+    color: #01813F;
+    transition: 0.2s;
+    border-bottom: 1px solid #01813F;
+    
+}
+
+.create{
+    border:none;
+    background: rgba(60, 184, 120, 0.8);
+    border-radius: 4px;
+    width: 324px;
+    height: 46px;
+    font-family: "Ubuntu-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 38px;
+}
+
+.create:hover{
+    background: #01813F;
+    transition: 0.2s;
+    cursor: pointer;
+}

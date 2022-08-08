@@ -1,0 +1,90 @@
+
+a{
+    text-decoration: none;
+}
+
+
+.main-page{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 50px;
+} 
+
+
+.parallax-section {
+    position: relative;
+
+}
+
+.parallax-section::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 590px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    
+}
+
+.parallax-section_1::before {
+    background-image: url(../img/backround1.jpg);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 113px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
+
+.company{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 36px;
+    color: #424F57;
+}
+.name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #14AFCA;
+    text-transform:uppercase;
+
+}
+
+.nav-item{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #3E4C4E;
+    text-transform:uppercase;
+    display: flex;
+    justify-items: space-around;
+}
+
+.slogan{
+    font-family: 'FuturaBT';
+    font-size: 52px;
+    line-height: 75px;
+    text-transform:uppercase;
+    text-align: center;
+    margin-top: 149px;
+}
